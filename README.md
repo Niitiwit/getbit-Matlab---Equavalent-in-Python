@@ -3,16 +3,16 @@ I did the reseach paper work based on the python environment which is open sourc
 
 # How to use
 1.Call call Decimal_To_Binary class from DecimalToBinary module
-  EX: from DecimalToBinary import Decimal_to_Binary
-      Test = Decimal_to_Binary()
+  \nEX: from DecimalToBinary import Decimal_to_Binary
+      \nTest = Decimal_to_Binary()
 2.Call Function dec2bin from Decimal_To_Binary class by giving argument with Array of Decimal Number and Number of bits location
-  EX: Test.dec2bin(Decnum, Bitnum)
+  \nEX: Test.dec2bin(Decnum, Bitnum)
   
 # Function calling Example
 Decnum = [11,12,16,17,18,19]
-Bitnum = 8
-Test = Decimal_to_Binary()
-print(Test.dec2bin(Decnum, Bitnum))
+\nBitnum = 8
+\nTest = Decimal_to_Binary()
+\nprint(Test.dec2bin(Decnum, Bitnum))
 
 # OUTPUT
 ['00001011', '00001100', '00010000', '00010001', '00010010', '00010011']
